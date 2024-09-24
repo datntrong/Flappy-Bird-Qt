@@ -177,6 +177,7 @@ float Bird::setRotation(qreal angle)
            t.translate(-c.x(), -c.y());
            setTransform(t);
        }
+    return 1.0;
 }
 
 void Bird::startOscillate()
