@@ -165,7 +165,7 @@ void Bird::rotate(const qreal &end, const int& duration, const QEasingCurve& cur
     rotator->start();
 }
 
-void Bird::setRotation(qreal angle)
+float Bird::setRotation(qreal angle)
 {
        if (abs(currentRotation - angle) > 0.01)
        {

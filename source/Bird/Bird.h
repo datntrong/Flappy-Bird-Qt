@@ -42,7 +42,7 @@ public:
         red
     };
 
-    void setRotation(qreal angle);
+    float setRotation(qreal angle);
     void startOscillate();
     void stopOscillate();
     void rise();
